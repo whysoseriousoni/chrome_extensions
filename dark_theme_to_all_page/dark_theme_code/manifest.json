@@ -1,23 +1,23 @@
 {
-"manifest_version": 3,
-"name": "Auto Dark Theme",
-"version": "0.0.1",
-"author":"onipradeep@gmail.com",
-"action": {
-	"default_title": "Click to Apply Theme"
-},
-"content_scripts":[
-    {
-    "matches":["file://*.pdf"],
-    "js":["dark_theme.js"]
-    }
-],
-"permissions": ["activeTab", "scripting"],
-"background": {
-"service_worker": "background.js"
-},
-"description": "A plain text description",
-"icons": {
-    "128": "dark_theme_icon.png"
-  }
+	"manifest_version": 3,
+	"name": "Auto Dark Theme",
+	"version": "0.0.1",
+	"author":"onipradeep@gmail.com",
+	"action": {
+		"default_title": "Click to Apply Theme"
+	},
+	"content_scripts":[
+		{
+			"matches":["file://*.pdf"],
+			"js":["dark_theme.js"]
+		}
+	],
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"description": "A plain text description",
+	"icons": {
+		"128": "dark_theme_icon.png"
+	}
 }
