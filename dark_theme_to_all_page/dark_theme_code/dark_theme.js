@@ -18,9 +18,9 @@ if (document.getElementById("custom-dark-theme")!==null){
 	document.getElementById("custom-dark-theme").remove();
 }
 else{
-var cover = document.createElement("div");
-cover.setAttribute("style", css);
-cover.setAttribute("id", 'custom-dark-theme'); 
-document.body.appendChild(cover);
+	var cover = document.createElement("div");
+	cover.setAttribute("style", css);
+	cover.setAttribute("id", 'custom-dark-theme'); 
+	document.body.appendChild(cover);
 }
 
